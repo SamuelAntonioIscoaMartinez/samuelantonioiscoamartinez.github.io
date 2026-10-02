@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Dr Lorenzo Cervantes - Carreras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#035485',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow">
+                        <img src="Images/logo.png" alt="L" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <a href="index.html"
+                            class="text-xl font-bold text-slate-900 tracking-tight block leading-none">Instituto
+                            Dr
+                            Lorenzo Cervantes</a>
+                        <span class="text-xs text-brand-600 font-medium">Formando el futuro</span>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="index.html" class="text-brand-600 font-semibold transition-colors">Inicio</a>
+                    <a href="career.html"
+                        class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-xl font-medium shadow-md shadow-brand-600/20 transition-all hover:shadow-lg">
+                        Carreras
+                    </a>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+
+
+        <section id="contacto" class="py-12 bg-slate-50">
+            <div class="max-w-5xl mx-auto px-4">
+
+                <h2 class="text-3xl font-bold text-slate-900 mb-6">
+                    Información de Contacto
+                </h2>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-sm border border-slate-200">
+                    <table class="w-full text-left border-collapse text-slate-700">
+
+                        <thead>
+                            <tr class="bg-slate-100 border-b border-slate-200 text-slate-900 text-sm uppercase">
+                                <th class="py-3 px-4 font-semibold">N°</th>
+                                <th class="py-3 px-4 font-semibold">Tipo de Contacto</th>
+                                <th class="py-3 px-4 font-semibold">Contacto</th>
+                                <th class="py-3 px-4 font-semibold text-center">Acción</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="divide-y divide-slate-200 text-sm">
+
+                            <!-- Teléfono -->
+                            <tr class="hover:bg-slate-50">
+                                <td class="py-3 px-4 font-medium text-slate-500">1</td>
+
+                                <td class="py-3 px-4 font-semibold text-slate-800">
+                                    Teléfono
+                                </td>
+
+                                <td class="py-3 px-4 text-slate-600">
+                                    +504 9231-6387
+                                </td>
+
+                                <td class="py-3 px-4 text-center">
+                                    <a href="tel:+50492316387"
+                                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-3 py-1.5 rounded transition-colors">
+                                        Contactar
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                            <!-- WhatsApp -->
+                            <tr class="hover:bg-slate-50">
+                                <td class="py-3 px-4 font-medium text-slate-500">2</td>
+
+                                <td class="py-3 px-4 font-semibold text-slate-800">
+                                    WhatsApp
+                                </td>
+
+                                <td class="py-3 px-4 text-slate-600">
+                                    +504 9935-4082
+                                </td>
+
+                                <td class="py-3 px-4 text-center">
+                                    <a href="https://wa.me/50499354082" target="_blank"
+                                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-3 py-1.5 rounded transition-colors">
+                                        Contactar
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                            <!-- Facebook -->
+                            <tr class="hover:bg-slate-50">
+                                <td class="py-3 px-4 font-medium text-slate-500">3</td>
+
+                                <td class="py-3 px-4 font-semibold text-slate-800">
+                                    Facebook
+                                </td>
+
+                                <td class="py-3 px-4 text-slate-600">
+                                    Página oficial del instituto
+                                </td>
+
+                                <td class="py-3 px-4 text-center">
+                                    <a href="https://www.facebook.com/institutodrlorenzocervantes/" target="_blank"
+                                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-3 py-1.5 rounded transition-colors">
+                                        Contactar
+                                    </a>
+                                </td>
+                            </tr>
+
+
+                            <!-- Correo -->
+                            <tr class="hover:bg-slate-50">
+                                <td class="py-3 px-4 font-medium text-slate-500">4</td>
+
+                                <td class="py-3 px-4 font-semibold text-slate-800">
+                                    Correo electrónico
+                                </td>
+
+                                <td class="py-3 px-4 text-slate-600">
+                                    lorenzocervantes1201@gmail.com
+                                </td>
+
+                                <td class="py-3 px-4 text-center">
+                                    <a href="mailto:lorenzocervantes1201@gmail.com"
+                                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-3 py-1.5 rounded transition-colors">
+                                        Contactar
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr class="hover:bg-slate-50">
+                                <td class="py-3 px-4 font-medium text-slate-500">5</td>
+
+                                <td class="py-3 px-4 font-semibold text-slate-800">
+                                    Dirección
+                                </td>
+
+                                <td class="py-3 px-4 text-slate-600">
+                                    Instituto Dr Lorenzo Cervantes
+                                </td>
+
+                                <td class="py-3 px-4 text-center">
+                                    <a href="https://maps.app.goo.gl/FWc5Ft1RZUy9uyLn6"
+                                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-xs font-semibold px-3 py-1.5 rounded transition-colors">
+                                        Google Maps
+                                    </a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+
+
+            <div class="max-w-xl mx-auto overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white p-2">
+                <div class="w-full h-[260px] rounded-lg overflow-hidden">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46790.511045462394!2d-87.70158858761582!3d14.32722802171626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65831952adcb33%3A0x84113e309f930d5!2sInstituto%20Dr.%20Lorenzo%20Cervantes!5e1!3m2!1ses-419!2shn!4v1790917447305!5m2!1ses-419!2shn"
+                        class="w-full h-full border-0 rounded-lg" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-6">
+        <div class="text-center text-sm text-slate-500">
+            &copy; 2026 Samuel Antonio Iscoa Martinez.
+        </div>
+    </footer>
+
+</body>
+
+</html>

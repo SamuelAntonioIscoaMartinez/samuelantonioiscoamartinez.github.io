@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Dr Lorenzo Cervantes - Administración de Empresas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#035485',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow">
+                        <img src="/Images/logo.png" alt="Logo Instituto Dr Lorenzo Cervantes" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <a href="/index.html"
+                            class="text-xl font-bold text-slate-900 tracking-tight block leading-none">Instituto
+                            Dr Lorenzo Cervantes</a>
+                        <span class="text-xs text-brand-600 font-medium">Formando el futuro</span>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="/index.html" class="text-brand-600 font-semibold transition-colors">Inicio</a>
+                    <a href="/contact.html"
+                        class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-xl font-medium shadow-md shadow-brand-600/20 transition-all hover:shadow-lg">
+                        Contacto
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section id="carreras" class="py-12 bg-slate-50">
+            <div class="max-w-4xl mx-auto px-4">
+
+                <!-- Descripción General -->
+                <section id="carreras-intro" class="py-8 bg-white rounded-xl p-8 border border-slate-200 shadow-sm mb-10">
+                    <h2 class="text-3xl font-bold text-slate-900 mb-4">BTP ADMINISTRACIÓN DE EMPRESAS - Plan de Estudios</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                        Esta especialidad forma profesionales capacitados para coordinar, dirigir y optimizar los recursos humanos, materiales y financieros de organizaciones públicas o privadas, fomentando habilidades gerenciales, emprendimiento, mercadotecnia y planificación estratégica.
+                    </p>
+                    <a href="#"
+                        class="inline-block bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
+                        Descargar Plan de Estudio
+                    </a>
+                </section>
+
+                <!-- DÉCIMO AÑO (10mo) -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Décimo Año (10mo)</h3>
+                    <div class="overflow-x-auto bg-white rounded-lg shadow-sm border border-slate-200">
+                        <table class="w-full text-left border-collapse text-slate-700">
+                            <thead>
+                                <tr class="bg-slate-100 border-b border-slate-200 text-slate-900 text-sm uppercase">
+                                    <th class="py-3 px-4 font-semibold w-16">No.</th>
+                                    <th class="py-3 px-4 font-semibold">Espacio Curricular</th>
+                                    <th class="py-3 px-4 font-semibold text-center w-48">Horas Anuales</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm">
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">1</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Matemática I y II</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">2</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Español I y II</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">3</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Física Aplicada</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">4</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Química</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">5</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Biología I</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">6</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Historia de Honduras</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">7</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Sociología</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">8</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Inglés Técnico I</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">9</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Informática Básica</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">10</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Psicología Organizacional</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">80</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">11</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Educación Física y Deportes</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">80</td>
+                                </tr>
+                                <tr class="bg-slate-100 font-bold text-slate-900">
+                                    <td colspan="2" class="py-3 px-4 text-right">Total Horas Anuales</td>
+                                    <td class="py-3 px-4 text-center">1,480 horas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- UNDÉCIMO AÑO (11mo) -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Undécimo Año (11mo)</h3>
+                    <div class="overflow-x-auto bg-white rounded-lg shadow-sm border border-slate-200">
+                        <table class="w-full text-left border-collapse text-slate-700">
+                            <thead>
+                                <tr class="bg-slate-100 border-b border-slate-200 text-slate-900 text-sm uppercase">
+                                    <th class="py-3 px-4 font-semibold w-16">No.</th>
+                                    <th class="py-3 px-4 font-semibold">Espacio Curricular</th>
+                                    <th class="py-3 px-4 font-semibold text-center w-48">Horas Anuales</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm">
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">1</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Administración General I</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">2</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Matemática Financiera</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">3</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Mercadotecnia I</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">4</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Gestión de Recursos Humanos</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">5</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Legislación Mercantil y Laboral</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">6</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Contabilidad General</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">280</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">7</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Redacción Empresarial y Técnica</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">8</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Filosofía</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">9</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Ofimática Empresarial</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="bg-slate-100 font-bold text-slate-900">
+                                    <td colspan="2" class="py-3 px-4 text-right">Total Horas Anuales</td>
+                                    <td class="py-3 px-4 text-center">1,520 horas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- DUODÉCIMO AÑO (12mo) -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Duodécimo Año (12mo)</h3>
+                    <div class="overflow-x-auto bg-white rounded-lg shadow-sm border border-slate-200">
+                        <table class="w-full text-left border-collapse text-slate-700">
+                            <thead>
+                                <tr class="bg-slate-100 border-b border-slate-200 text-slate-900 text-sm uppercase">
+                                    <th class="py-3 px-4 font-semibold w-16">No.</th>
+                                    <th class="py-3 px-4 font-semibold">Espacio Curricular</th>
+                                    <th class="py-3 px-4 font-semibold text-center w-48">Horas Anuales</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-sm">
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">1</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Administración de Operaciones y Producción</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">2</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Formulación y Evaluación de Proyectos</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">240</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">3</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Finanzas de la Empresa</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">4</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Estrategias de Mercadotecnia y Ventas</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">160</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">5</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Emprendimiento y Plan de Negocios</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">6</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Relaciones Públicas y Protocolo Empresarial</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">120</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">7</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Sistemas de Información Gerencial</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">200</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-3 px-4 font-medium text-slate-500">8</td>
+                                    <td class="py-3 px-4 font-semibold text-slate-800">Práctica Profesional Empresarial</td>
+                                    <td class="py-3 px-4 text-center text-slate-600 font-medium">360</td>
+                                </tr>
+                                <tr class="bg-slate-100 font-bold text-slate-900">
+                                    <td colspan="2" class="py-3 px-4 text-right">Total Horas Anuales</td>
+                                    <td class="py-3 px-4 text-center">1,680 horas</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-6">
+        <div class="text-center text-sm text-slate-500">
+            &copy; 2026 Samuel Antonio Iscoa Martinez.
+        </div>
+    </footer>
+
+</body>
+
+</html>
