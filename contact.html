@@ -193,17 +193,49 @@
                     </table>
                 </div>
 
+
+
             </div>
 
 
-            <div class="max-w-xl mx-auto overflow-hidden rounded-xl border border-slate-200 shadow-sm bg-white p-2">
-                <div class="w-full h-[260px] rounded-lg overflow-hidden">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46790.511045462394!2d-87.70158858761582!3d14.32722802171626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65831952adcb33%3A0x84113e309f930d5!2sInstituto%20Dr.%20Lorenzo%20Cervantes!5e1!3m2!1ses-419!2shn!4v1790917447305!5m2!1ses-419!2shn"
-                        class="w-full h-full border-0 rounded-lg" allowfullscreen="" loading="lazy"
+            <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200 mb-14 mt-14 max-w-2xl mx-auto">
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Envíanos un mensaje</h3>
+                    <p class="text-sm text-slate-600 mb-6">Completa los campos y te responderemos por correo.</p>
+
+                    <form action="https://formsubmit.co/epere9802@gmail.com" method="POST" class="space-y-4">
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde la página web">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div>
+                            <label class="block text-sm font-medium mb-1">Nombre</label>
+                            <input type="text" name="nombre" required placeholder="Tu nombre" class="w-full p-2.5 border border-slate-300 rounded-lg text-sm">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium mb-1">Correo Electrónico</label>
+                            <input type="email" name="email" required placeholder="tu@correo.com" class="w-full p-2.5 border border-slate-300 rounded-lg text-sm">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium mb-1">Mensaje</label>
+                            <textarea name="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..." class="w-full p-2.5 border border-slate-300 rounded-lg text-sm"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-2.5 rounded-lg text-sm transition">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+                <div class="bg-white rounded-xl p-2 shadow-sm border border-slate-200 max-w-2xl mx-auto">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46790.511045462394!2d-87.70158858761582!3d14.32722802171626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65831952adcb33%3A0x84113e309f930d5!2sInstituto%20Dr.%20Lorenzo%20Cervantes!5e1!3m2!1ses-419!2shn!4v1790917447305!5m2!1ses-419!2shn" 
+                        class="w-full h-64 border-0 rounded-lg" 
+                        allowfullscreen="" 
+                        loading="lazy" 
                         referrerpolicy="strict-origin-when-cross-origin">
                     </iframe>
                 </div>
+
             </div>
 
         </section>
